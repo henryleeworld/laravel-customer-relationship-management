@@ -26,11 +26,11 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/zeCCgAh.png)
+![](https://i.imgur.com/pjF1eNb.png)
 > 根據群組來分類業務夥伴
 
-![](https://i.imgur.com/rWzyQIQ.png)
+![](https://i.imgur.com/LejMJ3l.png)
 > 輕鬆建立與儲存整合的客戶個人資料
 
-![](https://i.imgur.com/zqtldVG.png)
+![](https://i.imgur.com/40c7ws3.png)
 > 整個客戶生命週期中輕鬆有效地管理個人檔案資料
