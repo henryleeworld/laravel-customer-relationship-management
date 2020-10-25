@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\CrmNote;
+use App\Models\CrmNote;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;

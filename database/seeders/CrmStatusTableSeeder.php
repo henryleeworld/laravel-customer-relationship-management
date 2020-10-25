@@ -1,6 +1,8 @@
 <?php
 
-use App\CrmStatus;
+namespace Database\Seeders;
+
+use App\Models\CrmStatus;
 use Illuminate\Database\Seeder;
 
 class CrmStatusTableSeeder extends Seeder

@@ -1,16 +1,16 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use \DateTimeInterface;
+use DateTimeInterface;
 
-class CrmCustomer extends Model
+class Role extends Model
 {
     use SoftDeletes;
 
-    public $table = 'crm_customers';
+    public $table = 'roles';
 
     protected $dates = [
         'created_at',
@@ -19,15 +19,7 @@ class CrmCustomer extends Model
     ];
 
     protected $fillable = [
-        'first_name',
-        'last_name',
-        'status_id',
-        'email',
-        'phone',
-        'address',
-        'skype',
-        'website',
-        'description',
+        'title',
         'created_at',
         'updated_at',
         'deleted_at',
@@ -38,8 +30,8 @@ class CrmCustomer extends Model
         return $date->format('Y-m-d H:i:s');
     }
 
-    public function status()
+    public function permissions()
     {
-        return $this->belongsTo(CrmStatus::class, 'status_id');
+        return $this->belongsToMany(Permission::class);
     }
 }

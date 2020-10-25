@@ -1,16 +1,16 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use \DateTimeInterface;
+use DateTimeInterface;
 
-class Role extends Model
+class CrmStatus extends Model
 {
     use SoftDeletes;
 
-    public $table = 'roles';
+    public $table = 'crm_statuses';
 
     protected $dates = [
         'created_at',
@@ -19,7 +19,7 @@ class Role extends Model
     ];
 
     protected $fillable = [
-        'title',
+        'name',
         'created_at',
         'updated_at',
         'deleted_at',
@@ -28,10 +28,5 @@ class Role extends Model
     protected function serializeDate(DateTimeInterface $date)
     {
         return $date->format('Y-m-d H:i:s');
-    }
-
-    public function permissions()
-    {
-        return $this->belongsToMany(Permission::class);
     }
 }

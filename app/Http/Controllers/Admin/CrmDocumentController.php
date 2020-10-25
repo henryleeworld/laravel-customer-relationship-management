@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\CrmCustomer;
-use App\CrmDocument;
+use App\Models\CrmCustomer;
+use App\Models\CrmDocument;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyCrmDocumentRequest;

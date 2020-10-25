@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api\V1\Admin;
 
-use App\CrmNote;
+use App\Models\CrmNote;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreCrmNoteRequest;
 use App\Http\Requests\UpdateCrmNoteRequest;

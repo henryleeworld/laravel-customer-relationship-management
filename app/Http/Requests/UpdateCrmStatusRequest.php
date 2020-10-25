@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\CrmStatus;
+use App\Models\CrmStatus;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;

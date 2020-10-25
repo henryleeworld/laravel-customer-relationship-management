@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\CrmCustomer;
-use App\CrmStatus;
+use App\Models\CrmCustomer;
+use App\Models\CrmStatus;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyCrmCustomerRequest;
 use App\Http\Requests\StoreCrmCustomerRequest;

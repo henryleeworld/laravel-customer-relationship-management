@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\CrmStatus;
+use App\Models\CrmStatus;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyCrmStatusRequest;
 use App\Http\Requests\StoreCrmStatusRequest;

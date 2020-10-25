@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\CrmCustomer;
-use App\CrmNote;
+use App\Models\CrmCustomer;
+use App\Models\CrmNote;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyCrmNoteRequest;
 use App\Http\Requests\StoreCrmNoteRequest;
