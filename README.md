@@ -1,6 +1,6 @@
-# Laravel 8 客戶關係管理
+# Laravel 9 客戶關係管理
 
-打造流暢的客戶體驗，贏得客戶的信任與忠誠。整合資料並簡化行銷、電商到客服的完整流程，有感提昇效率、降低企業的成本及風險。Laravel 8 客戶關係管理主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
+打造流暢的客戶體驗，贏得客戶的信任與忠誠。整合資料並簡化行銷、電商到客服的完整流程，有感提昇效率、降低企業的成本及風險。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -26,11 +26,11 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/pjF1eNb.png)
+![](https://i.imgur.com/t0lIG2m.png)
 > 根據群組來分類業務夥伴
 
-![](https://i.imgur.com/LejMJ3l.png)
+![](https://i.imgur.com/4bE5HsY.png)
 > 輕鬆建立與儲存整合的客戶個人資料
 
-![](https://i.imgur.com/40c7ws3.png)
+![](https://i.imgur.com/dVzTqW7.png)
 > 整個客戶生命週期中輕鬆有效地管理個人檔案資料

@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-
 Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'App\Http\Controllers\Api\V1\Admin', 'middleware' => ['auth:api']], function () {
     // Permissions
     Route::apiResource('permissions', 'PermissionsApiController');
@@ -38,3 +36,4 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'App\Http\Control
     Route::post('crm-documents/media', 'CrmDocumentApiController@storeMedia')->name('crm-documents.storeMedia');
     Route::apiResource('crm-documents', 'CrmDocumentApiController');
 });
+

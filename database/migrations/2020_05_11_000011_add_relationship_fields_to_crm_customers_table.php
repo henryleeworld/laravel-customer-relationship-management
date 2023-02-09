@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddRelationshipFieldsToCrmCustomersTable extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -13,4 +13,4 @@ class AddRelationshipFieldsToCrmCustomersTable extends Migration
             $table->foreign('status_id', 'status_fk_1454289')->references('id')->on('crm_statuses');
         });
     }
-}
+};
