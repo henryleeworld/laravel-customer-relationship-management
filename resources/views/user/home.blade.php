@@ -4,7 +4,7 @@
     <div class="col-md-6">
         <div class="card mx-4">
             <div class="card-body p-4">
-                你已經登入！
+                {{ __('You are logged in!') }}
             </div>
         </div>
     </div>

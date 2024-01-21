@@ -9,8 +9,8 @@ return new class extends Migration
     public function up()
     {
         Schema::table('crm_notes', function (Blueprint $table) {
-            $table->unsignedInteger('customer_id')->nullable();
-            $table->foreign('customer_id', 'customer_fk_1454300')->references('id')->on('crm_customers');
+            $table->unsignedBigInteger('customer_id')->nullable();
+            $table->foreign('customer_id')->references('id')->on('crm_customers');
         });
     }
 };

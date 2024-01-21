@@ -9,7 +9,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('crm_documents', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string('name')->nullable();
             $table->longText('description')->nullable();
             $table->timestamps();

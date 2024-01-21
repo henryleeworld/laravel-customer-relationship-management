@@ -1,4 +1,4 @@
-# Laravel 9 客戶關係管理
+# Laravel 10 客戶關係管理
 
 打造流暢的客戶體驗，贏得客戶的信任與忠誠。整合資料並簡化行銷、電商到客服的完整流程，有感提昇效率、降低企業的成本及風險。
 
@@ -20,17 +20,25 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
+```sh
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/login` 來進行登入，預設的電子郵件和密碼分別為 __admin@admin.com__ 和 __password__ 。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/t0lIG2m.png)
+![](https://i.imgur.com/5uLch45.png)
 > 根據群組來分類業務夥伴
 
-![](https://i.imgur.com/4bE5HsY.png)
+![](https://i.imgur.com/dyqAAvD.png)
 > 輕鬆建立與儲存整合的客戶個人資料
 
-![](https://i.imgur.com/dVzTqW7.png)
+![](https://i.imgur.com/vBz1CwR.png)
 > 整個客戶生命週期中輕鬆有效地管理個人檔案資料
